@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="#fefbea">
+
+    <EditText
+        android:id="@+id/et1"
+        android:hint="Enter The Name Of The Website"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt1"
+        android:text="Display"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et1"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:backgroundTint="#007b7b"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/bt2"
+        android:text="Back"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#007b7b"
+        android:layout_width="100dp"
+        android:layout_height="40dp" />
+    <WebView
+        android:id="@+id/wb1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bt1"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
